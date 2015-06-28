@@ -1,2 +1,6 @@
 # pocket-devops
-demo devops 
+
+## Usage 
+
+Intend for local development 
+

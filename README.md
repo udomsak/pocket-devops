@@ -43,7 +43,23 @@ This is a simple Hello World app based on Flask. Intend to poc devops candidate.
 - drone.io is opensource but not well document and newer thus community not much to have or contributor more like jenkin or other. 
 - drone.io for local CI/CD take time to setup in you way ( docker run inside docker example. ) 
 
+## Setup for testing CI/CD
 
+- fork this repo 
+- setup account on dron.io 
+- setup account on heroku and install toolbelt
+- copy git repository from above **heroku1
+- setup drone.io for github 
+- setup drone.io for heroku ( may look this for guide with this link as [guide]( http://docs.drone.io/heroku.html) )
+- select project you want to do work from github.
+- set branch you want to CI/CD 
+- set deployment and select heroku 
+- paste git repository from **heroku1
+- copy deploykey from project setting. **heroku2
+- paste key to local save as what ever you name want **heroku2
+- add key to heroku with ``` heroku keys:add ``` 
+- test commit/push someting to repo and see what happen on drone.io.
+- Enjoy you work. ( drone.io will do automatic with build and deploy for you ) 
 
 ## NOTE for Local development  
 

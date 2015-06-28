@@ -11,8 +11,21 @@ This is a simple Hello World app based on Flask. Intend to poc devops candidate.
 - This repository have 2 branch for local development please use 'devel' branch instead. 
 - Image for docker usage store at [ dockerhub ] ( https://registry.hub.docker.com/ )
 
+#### git details 
+
+- your local development use 'devel' brancn it give you with docker file. 
+- production use 'master' this use to deploy to heroku. 
+
+
+## TODO 
+
+- Change layout of code to easy migrate from development to production. 
+- Change Procfile in right way. ( fodler/ path etc/ ) :) 
+- clean up. 
 
 ## Motd 
+
+- NOTE this is quick and dirty way may not reasonable or beauty. :) 
 
 - drone.io is CI/CD That easy to config ( from my mind ) even if it not well document but it' just work and they not have over feature that i not need more Build and Deploy.
 

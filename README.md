@@ -12,6 +12,25 @@ This is a simple Hello World app based on Flask. Intend to poc devops candidate.
 - Image for docker usage store at [ dockerhub ] ( https://registry.hub.docker.com/ )
 
 
+## Motd 
+
+- drone.io is CI/CD That easy to config ( from my mind ) even if it not well document but it' just work and they not have over feature that i not need more Build and Deploy.
+
+- drone.io Take time to setup you in quickly compare with other ( Jenkins )  job wil closing in 20min.( up to your internet connecttion). 
+
+- drone.io It's opensource and you can download to setup with in you orgranization and setup in few hour. ( download image ). compare with circleCI or other commercial.
+
+- Heroku it 'PaaS' cloud platform that offer free with reasonable usage. Can work with git and specially my CI/CD server ( drone.io ) love it. :)  
+
+- Heroku it decrease time of deployment that compare with 'IaaS' solution that take time to setup dependecies packages. If you code or softwar stack not often change requirement dependencies or not to use specially feature such as 'PBX control or WebRTC control hub'   'PaaS' Like heroku is you way.     
+
+### Motd NOTE
+
+- PaaS is not for everything please educate feature and what they can do before deployment.
+- drone.io is opensource but not well document and newer thus community not much to have or contributor more like jenkin or other. 
+- drone.io for local CI/CD take time to setup in you way ( docker run inside docker example. ) 
+
+
 
 ## NOTE for Local development  
 

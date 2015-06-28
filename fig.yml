@@ -1,0 +1,7 @@
+devops:
+    build: .
+    ports:
+      - "8001"
+      - "8080:80"
+   hostname: pocdevops
+
